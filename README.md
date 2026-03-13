@@ -9,7 +9,7 @@ This project simulates a restaurant website with multiple sections such as **Hom
 ## Features
 
 - Dynamic page rendering with JavaScript
-- Tab-based navigation (Home, Menu, Contact)
+- Tab-based navigation (Home, Menu, About)
 - Separate JavaScript modules for each page
 - Content dynamically inserted into a single `#content` container
 - Built and bundled using Webpack
