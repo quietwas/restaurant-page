@@ -16,6 +16,15 @@ nav {
 }
 
 .card {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border: solid black 1px;
-    padding: 10px;
+    padding: 5px;
+}
+
+.card * {
+    text-align: center;
 }

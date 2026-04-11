@@ -6,27 +6,24 @@ function createHomeScreen(content) {
     const titleCard = document.createElement("div")
     titleCard.classList.add("card")
     const title = document.createElement("h2")
-    title.textContent = "Jezebel's"
+    title.textContent = "Welcome to Jezebel's"
     titleCard.appendChild(title)
 
-    const reviewCard = document.createElement("div")
-    reviewCard.classList.add("card")
-    const review = document.createElement("p")
-    const author = document.createElement("p")
-    review.textContent = "This place ain't too half bad."
-    author.textContent = "- Infernus"
-    reviewCard.appendChild(review)
-    reviewCard.appendChild(author)
+    const subHeaderCard = document.createElement("div")
+    subHeaderCard.classList.add("card")
+    const subHeader = document.createElement("h3")
+    subHeader.textContent = "Good music. Interesting people. No belligerence tolerated."
+    subHeaderCard.appendChild(subHeader)
 
-    const hoursCard = document.createElement("div")
-    hoursCard.classList.add("card")
-    const hours = document.createElement("p")
-    hours.textContent = "Everyday 12pm-4am"
-    hoursCard.appendChild(hours)
+    const bodyCard = document.createElement("div")
+    bodyCard.classList.add("card")
+    const body = document.createElement("p")
+    body.textContent = "Located in the heart of the Interdimensional Ritz, Jezebel's is the only neutral ground where a demon from another plane can serve you a drink without setting the tab on fire. Whether you're here to escape the lanes or just to hear the live jazz, pull up a stool. Just remember: Infernus might have mellowed out, but he hasn't forgotten how to dispose of evidence."
+    bodyCard.appendChild(body)
 
     content.appendChild(titleCard)
-    content.appendChild(reviewCard)
-    content.appendChild(hoursCard)
+    content.appendChild(subHeaderCard)
+    content.appendChild(bodyCard)
 }
 
 const homeButton = document.querySelector(".home")
