@@ -10,6 +10,8 @@ const content = document.querySelector("#content")
 
 createHomeScreen(content)
 
+// Tab Switching Logic
+
 homeButton.addEventListener("click", () => {
     createHomeScreen(content)
 })
