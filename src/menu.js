@@ -40,6 +40,7 @@ function createMenuScreen(content) {
 
 const menuButton = document.querySelector(".menu")
 
-menuButton.addEventListener("click", () => {
-    createMenuScreen(content)
-})
+export {
+    createMenuScreen,
+    menuButton
+}

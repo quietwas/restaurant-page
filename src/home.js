@@ -28,10 +28,7 @@ function createHomeScreen(content) {
 
 const homeButton = document.querySelector(".home")
 
-homeButton.addEventListener("click", () => {
-    createHomeScreen(content)
-})
-
 export {
-    createHomeScreen
+    createHomeScreen,
+    homeButton
 }
